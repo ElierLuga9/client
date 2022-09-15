@@ -1,0 +1,26 @@
+.header {
+  background-color: #232f3e;
+  color: white;
+  text-align: right;
+  padding: 20px;
+  height: 48px;
+}
+
+.column {
+  float: left;
+  background-color: white;
+  width: 20%;
+  height: 125%;
+  border-style: solid;
+  border-width: thin;
+}
+
+.filter {
+  column-fill: auto;
+  width: 80%;
+  height: fit-content;
+  border-style: solid;
+  border-width: thin;
+  border-inline: none;
+  font-size: small;
+}
